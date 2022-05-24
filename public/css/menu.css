@@ -1,0 +1,11 @@
+#Menu h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#Menu section {
+    background-color: var(--primary-color);
+    border: 2px solid black;
+    margin: 3vw 10vw;
+    box-shadow: 10px 10px grey;
+}

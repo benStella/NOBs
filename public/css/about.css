@@ -1,0 +1,34 @@
+#About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+#About h1, #About h2 {
+    justify-content: center;
+
+}
+
+#About span {
+    font-weight: bolder;
+}
+
+.Story {
+    background-color: var(--primary-color);
+    margin-right: 11vw;
+    padding: 20px;
+    margin-left: 185px;
+    border: 2px solid black;
+    box-shadow: 10px 10px gray;
+}
+
+.heading {
+    font-size: x-large;
+    justify-content: center;
+}
+
+@media screen and (max-width: 425px) {
+
+}
+
