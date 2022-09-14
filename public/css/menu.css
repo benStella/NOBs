@@ -8,4 +8,47 @@
     border: 2px solid black;
     margin: 3vw 10vw;
     box-shadow: 10px 10px grey;
+    display: none;
+}
+
+#Menu section p {
+    font-weight: bold;
+}
+
+.heading {
+    font-size: large;
+}
+
+.menu-img {
+    position: relative;
+    left: 15vw;
+}
+
+@media screen and (max-width: 1280px) {
+    .menu-img {
+        left: 3vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .menu-img {
+        width: 975px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu-img {
+        width: 725px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #Menu section {
+        display: block;
+    }
+
+    .menu-img {
+        display: none;
+    }
 }

@@ -26,7 +26,6 @@ button {
     background-color: var(--primary-color);
     margin: 11vw 40vw;
     box-shadow: 10px 10px grey;
-    width: 17vw;
     border: 2px solid black;
     display: flex;
     justify-content: center;
@@ -39,25 +38,20 @@ button {
     justify-content: center;
 }
 
-@media screen and (max-width: 1024px) {
-    #Contact-us {
-
-        width: 25vw;
-    }    
-}
-
 @media screen and (max-width: 768px) {
     #Contact-us {
-        width: 35vw;
+        margin: 0vw 34vw;
     }    
 }
 
 @media screen and (max-width: 425px) {
     #Contact-us {
-        display: flex;
-        flex-direction: column;
-        background-color: transparent;
-        border: none;
-        box-shadow: none;
+        margin: 0vw 25vw;
     }    
+}
+
+@media screen and (max-width: 320px) {
+    #Contact-us {
+        margin: 0vw 18vw;
+    }
 }

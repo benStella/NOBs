@@ -28,7 +28,36 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 425px) {
-
+@media screen and (max-width: 320px) {
+    #About {
+        position: relative;
+        right: 24vw;
+        margin: 0vw -27vw;
+    }    
 }
+
+@media screen and (max-width: 375px) {
+    #About {
+        position: relative;
+        right: 20vw;
+        margin: 0vw -20vw;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    #About {
+        position: relative;
+        right: 8vw;
+        margin: 0vw -8vw;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    #About {
+        /* position: relative; */
+        left: 0vw;
+    }
+}
+
+
 
