@@ -1,0 +1,36 @@
+#Menu h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#Menu section {
+    background-color: var(--primary-color);
+    border: 2px solid black;
+    margin: 3vw 10vw;
+    box-shadow: 10px 10px grey;
+    display: none;
+}
+
+#Menu section p {
+    font-weight: bold;
+}
+
+.heading {
+    font-size: large;
+}
+
+.menu-img {
+    position: relative;
+    left: 15vw;
+}
+
+
+@media screen and (max-width: 425px) {
+    #Menu section {
+        display: block;
+    }
+
+    .menu-img {
+        display: none;
+    }
+}
