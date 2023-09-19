@@ -103,10 +103,10 @@ navigation links section
         border: none;
          margin: 50% 25%;
     }
-
-     .navbar {
-
-     }
+    
+    li.nav-item {
+        background-color: white;
+    }
 
      .header-content{
          height: 40vw;
@@ -171,8 +171,8 @@ navigation links section
     }
 
     @media screen and (max-width: 425px) {
-        .sheriff-video {
-            width: 90vw;
+        .sheriff-video-div {
+            display: none;
         }
     }
     
@@ -193,8 +193,8 @@ navigation links section
     
 
     @media screen and (max-width: 425px) {
-        #locate-us {
-            height: 75vh;
+        #Locate {
+            display: none;
         }
     }
 
@@ -211,8 +211,10 @@ navigation links section
      align-items: center;
     }
     
-    @media screen and (max-width: 1024px) {
-        
+    @media screen and (max-width: 425px) {
+        .social-media {
+            display: none;
+        }
     }
 
     .social-media-links   {
