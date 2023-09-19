@@ -15,6 +15,8 @@
         
         <!-- navigation links -->
         <?php include './public/includes/header.php' ?>
+
+        <h1>it worked!</h1>
         
         
 
