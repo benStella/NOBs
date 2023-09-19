@@ -13,18 +13,23 @@
     
 <!-- TODO: Rework page format, keep original content entact. -->
 
-    <header id="header">
-        <div class="header-content">
-            <img src="../images/nobs-burrito.png" alt="" class="nobs-burrito" width="200px" height="200px">
-            <img src="../images/4x6 Banner NOB.png" alt="" class="nobs-banner" width="200px" height="200px">
-            <nav>
-                <li><a href='../../index.html'>HOME</a></li>
-                <li><a href='/'>ABOUT</a></li>
-                <li><a href='./menu.html'>MENU</a></li>
-                <li><a href='./contact.html'>CONTACT US</a></li>
-            </nav>
-        </div>
-    </header>
+<header id="header">
+    <div class="header-content">
+        <img src="../../public/images/nobs-burrito.png" alt="" class="nobs-burrito" width="200px" height="200px">
+        <img src="./public/images/4x6 Banner NOB.png" alt="" class="nobs-banner" width="200px" height="200px">
+        <nav class="topnav">
+            <a href='../../index.html'>HOME</a>
+            <div id="myLinks">
+                <a href='./about.html'>ABOUT</a>
+                <a href='./menu.html'>MENU</a>
+                <a href='./contact.html'>CONTACT US</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" id="burger-menu" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+        </nav>
+    </div>
+</header>
+
     <div id="About">
 
         <!-- TODO: Cleanup code and eliminate unecessary breaks,
@@ -140,6 +145,6 @@
     </div>
 
 <!-- TODO: -->
-
+    <script src="../js/script.js"></script>
 </body>
 </html>

@@ -47,23 +47,27 @@ h1 {
     text-decoration: none;   
 }
 
-#header nav li a {
+#header nav a {
     text-decoration: none;
     color: var(--lettering);
     font-size: 18px;
     font-weight: bold;
 }
 
-#header nav li a:hover {
-    text-decoration: underline;
+#header nav a:hover {
+    cursor: pointer;
 }
 
-#header li {
+#header a{
     padding: 10px;
 }
 
-#header nav li button {
+#header nav button {
     border: none;
+}
+
+.header-content nav a i {
+    display: none;
 }
 
 .nobs-banner {
@@ -71,6 +75,8 @@ h1 {
     top: 5vw;
     right: 38vw;
 }
+
+
 
 @media screen and (max-width: 1024px) {
     .header-content {
@@ -95,8 +101,6 @@ h1 {
         height: 17vw;
     }
 
-
-
     .nobs-banner {
         width: 100px;
         height: 100px;
@@ -108,9 +112,64 @@ h1 {
         width: 100px;
         height: 100px;
     }
+
+
+    
+    @media screen and (max-width: 425px) {
+    
+        .header-content nav a i {
+        display: block;
+    }
+
+    /* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: orange;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    background-color: orange;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: orange;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: orange;
+    display: block;
+    position: absolute;
+    right: 0;
+    /* top: 0; */
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: orange;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: black;
+    /* color: white; */
+    visibility: hidden;
+
+  }
+
+  
+
 }
 
-@media screen and (max-width: 425px) {
     #header {
     }
     
