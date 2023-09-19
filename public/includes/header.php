@@ -1,4 +1,4 @@
-<php ?>
+
      <header id="header">
             <div class="header-content">
                 <img src="./public/images/nobs-burrito.png" alt="" class="nobs-burrito" width="200px" height="200px">
@@ -16,4 +16,3 @@
                 </nav>
             </div>
         </header>
-</php>
