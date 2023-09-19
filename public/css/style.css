@@ -194,6 +194,11 @@ h1 {
     /* end video */
     /* Locate section */
     
+    #Locate h1 {
+        display: flex;
+        justify-content: center;
+    }
+
     #locate-us {
         width: 74vw;
         margin: 0vw 12vw;
@@ -201,6 +206,7 @@ h1 {
         padding: 70px 0px;
     }
     
+
     @media screen and (max-width: 425px) {
         #locate-us {
             height: 75vh;
@@ -220,12 +226,16 @@ h1 {
      align-items: center;
     }
     
-    .social-media-links {
-        
-    }
     @media screen and (max-width: 1024px) {
         
     }
+
+    .social-media-links   {
+        margin: 10vh ;
+    }
+    
+    .social-media-links a {
+        margin: 10vw;
+    }
     
     /* end social media */
-    
