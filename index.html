@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./public/css/style.css">
     <link rel="icon" href="./public/images/favicon.oe.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>nobsnow</title>
 </head>
 <body background="./public/images/500NOBsBricksBackground.jpg">
@@ -17,11 +18,16 @@
             <div class="header-content">
                 <img src="./public/images/nobs-burrito.png" alt="" class="nobs-burrito" width="200px" height="200px">
                 <img src="./public/images/4x6 Banner NOB.png" alt="" class="nobs-banner" width="200px" height="200px">
-                <nav>
-                    <li><a href='/'>HOME</a></li>
-                    <li><a href='./public/html/about.html'>ABOUT</a></li>
-                    <li><a href='./public/html/menu.html'>MENU</a></li>
-                    <li><a href='./public/html/contact.html'>CONTACT US</a></li>
+                <nav class="topnav">
+                    <a href='/' class="active"></a>
+                    <div id="myLinks">
+                        <a href="/">HOME</a>
+                        <a href='./public/html/about.html'>ABOUT</a>
+                        <a href='./public/html/menu.html'>MENU</a>
+                        <a href='./public/html/contact.html'>CONTACT US</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
                 </nav>
             </div>
         </header>
@@ -45,20 +51,21 @@
       <img src="./public/images/NOBs8.jpg" style="width:50%">
     </div>
 
-    <div class="mySlides fade">
-        <img src="./public/images/NOHSs.jpg" style="width:50%">
+    <!-- hotsauce not same height as other pictures -->
+    <!-- <div class="mySlides fade">
+        <img src="./public/images/NOHSs.jpg" style="width:50%;">
+      </div> -->
+
+      <div class="mySlides fade">
+        <img src="./public/images/AppleBomb.jpg" style="width:50%">
       </div>
 
       <div class="mySlides fade">
-        <img src="./public/images/AppleBomb.jpg" style="width:60%">
-      </div>
-
-      <div class="mySlides fade">
-        <img src="./public/images/NOBs4.jpg" style="width:60%">
+        <img src="./public/images/NOBs4.jpg" style="width:50%">
       </div>
       
       <div class="mySlides fade">
-        <img src="./public/images/NOBs5.jpg" style="width:60%">
+        <img src="./public/images/NOBs5.jpg" style="width:50%">
       </div>      
   </div>
   <br>
