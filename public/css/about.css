@@ -16,9 +16,9 @@
 
 .Story {
     background-color: var(--primary-color);
-    margin-right: 11vw;
+    margin-right: 19%;
+    margin-left: 19%;
     padding: 20px;
-    margin-left: 185px;
     border: 2px solid black;
     box-shadow: 10px 10px gray;
 }
