@@ -20,40 +20,40 @@ h1 {
 }
 
 
-/* navigation links section */
-#header {
-    padding-top: 1px;
-    padding-bottom: 22px;
-}
-
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    background-color: orange;
-    height: 17vw;
-}
-
-#header h1 {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    font-size: xx-large;
-}
-
-#header nav {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    text-decoration: none;   
-}
-
-#header nav a {
-    text-decoration: none;
-    color: var(--lettering);
-    font-size: 18px;
-    font-weight: bold;
-}
-
+navigation links section
+/* Style the active link (or home/logo) */
+/* .active { */
+    /* background-color: black; */
+    /* color: white; */
+    /* visibility: hidden; */
+    
+    /* } */
+    #header {
+        padding-top: 1px;
+        padding-bottom: 22px;
+    }
+    
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        background-color: orange;
+        height: 17vw;
+    }
+    
+    #header h1 {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: xx-large;
+    }
+    
+    #header nav a {
+        text-decoration: none;
+        color: var(--lettering);
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
 #header nav a:hover {
     cursor: pointer;
 }
@@ -62,8 +62,9 @@ h1 {
     padding: 10px;
 }
 
+
 #header nav button {
-    border: none;
+    display: none;
 }
 
 .header-content nav a i {
@@ -76,12 +77,7 @@ h1 {
     right: 38vw;
 }
 
-
-
 @media screen and (max-width: 1024px) {
-    .header-content {
-        height: 15vw;
-    }    
 
     .nobs-banner{
         width: 125px;
@@ -97,89 +93,23 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-    .header-content {
-        height: 17vw;
-    }
-
-    .nobs-banner {
-        width: 100px;
-        height: 100px;
-        top: 6vw;
-        right: 28vw;
-    }
-
-    .nobs-burrito {
-        width: 100px;
-        height: 100px;
-    }
-
-
-    
-    @media screen and (max-width: 425px) {
-    
-        .header-content nav a i {
-        display: block;
-    }
-
-    /* Style the navigation menu */
-.topnav {
-    overflow: hidden;
-    background-color: orange;
-    position: relative;
-  }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
-    display: none;
-    background-color: orange;
-  }
-  
-  /* Style navigation menu links */
-  .topnav a {
-    color: orange;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-  
-  /* Style the hamburger menu */
-  .topnav a.icon {
-    background: orange;
-    display: block;
-    position: absolute;
-    right: 0;
-    /* top: 0; */
-  }
-  
-  /* Add a grey background color on mouse-over */
-  .topnav a:hover {
-    background-color: orange;
-    color: black;
-  }
-  
-  /* Style the active link (or home/logo) */
-  .active {
-    background-color: black;
-    /* color: white; */
-    visibility: hidden;
-
-  }
-
-  
 
 }
-
-    #header {
-    }
     
-    #header nav {
-        display: flex;
-        flex-direction: column;
+@media screen and (max-width: 425px) {
+
+    #header nav button {
+         display: block;
+        border: none;
+         margin: 50% 25%;
     }
 
-    .header-content{
-        height: 40vw;
+     .navbar {
+
+     }
+
+     .header-content{
+         height: 40vw;
     }
 
     .nobs-banner{
@@ -188,7 +118,7 @@ h1 {
         top: 11vw;
         right: 32vw;
     }
-
+    
     .nobs-burrito{
         width: 150px;
         height: 150px;
@@ -198,7 +128,7 @@ h1 {
         background-size: 245vw;
     }
 }
-
+    
 @media screen and (max-width: 375px){
     .header-content{
         height: 45vw;
