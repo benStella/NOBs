@@ -20,14 +20,7 @@ h1 {
 }
 
 
-navigation links section
-/* Style the active link (or home/logo) */
-/* .active { */
-    /* background-color: black; */
-    /* color: white; */
-    /* visibility: hidden; */
-    
-    /* } */
+/* navigation links section */
     #header {
         padding-top: 1px;
         padding-bottom: 22px;
@@ -72,24 +65,22 @@ navigation links section
 }
 
 .nobs-banner {
-    position: relative;
-    top: 5vw;
-    right: 38vw;
+   position: relative;
+   top: 32%;
+   right: 46%;
+   width: auto;
+   height: auto;
 }
 
-@media screen and (max-width: 1024px) {
+.nobs-burrito{
+    position: relative;
+    bottom: 5%;
+    width: auto;
+    height: auto
+}
 
-    .nobs-banner{
-        width: 125px;
-        height: 125px;
-        top: 5vw;
-        right: 34vw;
-    }
+@media screen and (max-width: 1440px) {
 
-    .nobs-burrito {
-        width: 125px;
-        height: 125px;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -99,9 +90,8 @@ navigation links section
 @media screen and (max-width: 425px) {
 
     #header nav button {
-         display: block;
+        display: block;
         border: none;
-         margin: 50% 25%;
     }
     
     li.nav-item {
@@ -112,17 +102,6 @@ navigation links section
          height: 40vw;
     }
 
-    .nobs-banner{
-        width: 150px;
-        height: 150px;
-        top: 11vw;
-        right: 32vw;
-    }
-    
-    .nobs-burrito{
-        width: 150px;
-        height: 150px;
-    }
     
     body {
         background-size: 245vw;
@@ -130,19 +109,7 @@ navigation links section
 }
     
 @media screen and (max-width: 375px){
-    .header-content{
-        height: 45vw;
-    }
 
-    .nobs-banner{
-        top: 11vw;
-        right: 32vw;
-    }
-
-    #header nav {
-        position: relative;
-        right: 5vw;
-    }
 }
 
 @media screen and (max-width: 320px) {
@@ -313,4 +280,10 @@ navigation links section
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+@media screen and (max-width: 425px) {
+    .slideshow-container {
+        display: none;
+    }
 }
